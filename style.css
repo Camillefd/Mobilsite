@@ -1,0 +1,97 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************** Font *************************/
+
+@font-face {
+  font-family: Assistant;
+  src: url("Assistant/assistant-variablefont_wght-webfont.woff") format(".woff"),
+    url("Assistant/assistant-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+/*************** Billeder ******************/
+img {
+  height: auto;
+  border: solid 5px #104179;
+  margin-block: 0.5rem;
+  display: block;
+  margin: auto;
+  width: 70%;
+  background-color: white;
+}
+
+/**************** Tekst ********************/
+h1 {
+  font-family: Kanit;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-family: Kanit;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: Assistant;
+  font-size: 1rem;
+  margin-block: 0.5rem;
+  text-indent: 2rem;
+}
+
+p {
+  font-family: Assistant;
+  font-size: 1rem;
+  margin-block: 0.5rem;
+}
+
+ul {
+  font-family: Assistant;
+  font-size: 1rem;
+  margin-block: 0.5rem;
+}
+
+dt {
+  font-family: Assistant;
+  font-size: 1rem;
+}
+
+dd {
+  font-family: Assistant;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-family: Assistant;
+  font-size: 1rem;
+  margin-block: 0.5rem;
+}
+
+/***************** Tekst farve *************/
+h1 {
+  color: #ffa008;
+}
+
+h2 {
+  color: #ffa008;
+}
+
+/*************** main ****************/
+main {
+  padding: 2rem;
+  background-color: #f9f4e8;
+}
+
+/************** footer ***************/
+
+footer {
+  background-color: #f9f4e8;
+}
